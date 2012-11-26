@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JP_TRAVEL</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <!-- BEGIN DUYTX -->
+    <string name="loadmore">Loading...</string>
+    <string name="pull_to_refresh_pull_label">Pull to Refresh</string>
+	<string name="pull_to_refresh_release_label">Release to refresh...</string>
+	<string name="pull_to_refresh_refreshing_label">Loading...</string>
+	<string name="pull_to_refresh_tap_label">Tap to refresh...</string>  
+	<string name="pull_to_load_label">Pull to show more...</string>
+	<string name="release_to_load_label">Release to show more...</string>
+	
+	<string name="select_area">Select area</string>
+	<string name="timeline">Timeline</string>
+	<string name="post">Post</string>
+	<string name="near_here">Near here</string>
+	<string name="my_album">My Album</string>
+    <!-- END DUYTX -->
+    <!-- BENGIN TUANNA -->
+    <!-- END TUANNA -->
+
+</resources>

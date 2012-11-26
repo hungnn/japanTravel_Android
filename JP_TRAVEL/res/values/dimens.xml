@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ThanhHV -->
+    <dimen name="Common_title">17sp</dimen>
+    <dimen name="size_font1_a02">20sp</dimen>
+    <dimen name="size_font2_a02">19sp</dimen>
+    <dimen name="size_font1_a03">15sp</dimen>
+    <dimen name="size_font1_P07">12sp</dimen>
+    <dimen name="size_font_time_U2122">11sp</dimen>
+    <dimen name="l01_hint_user">17.5sp</dimen>
+    <dimen name="witdh">0dp</dimen>
+    <dimen name="size_font_u21">12sp</dimen>
+    <!-- End ThanhHV -->
+
+
+    <!-- DuyTX -->
+    <!-- End DuyTX -->
+
+
+    <!-- ThanhND -->
+    <dimen name="l01_btn_text">14sp</dimen>
+    <dimen name="l01_hint_text">15sp</dimen>
+    <dimen name="s043_btn_follow_all">11sp</dimen>
+    <dimen name="f01_username">11sp</dimen>
+    <dimen name="f01_date">11sp</dimen>
+    <dimen name="S04_1_item_name_friend">15sp</dimen>
+    <dimen name="S04_1_item_username_friend">13sp</dimen>
+    <dimen name="S04_title">17sp</dimen>
+    <dimen name="m041_title_report">17sp</dimen>
+    <dimen name="common_title_numb_total">18sp</dimen>
+    <dimen name="t03_btn_text">11sp</dimen>
+    <dimen name="header_text">12sp</dimen>
+    <dimen name="header_time_text">10sp</dimen>
+    <dimen name="u01_dayly_post">14sp</dimen>
+    <dimen name="common_follow_header">11.5sp</dimen>
+    <dimen name="common_follow_numb_header">21.3sp</dimen>
+    <!-- End ThanhND -->
+
+
+    <!-- SenNA -->
+    <dimen name="size_font_msg_s07">24sp</dimen>
+    <!-- End SenNA -->
+
+
+    <!-- CuongDC -->
+    <!-- End CuongDC -->
+
+
+    <!-- LinhLM -->
+    <dimen name="m03_text_size3">13sp</dimen>
+    <dimen name="m03_text_size1">10sp</dimen>
+    <dimen name="m03_text_size2">13sp</dimen>
+    <dimen name="m03_text_size4">10sp</dimen>
+    <dimen name="m03_size_imageprofile">104dp</dimen>
+    <dimen name="m03_margin1">5dp</dimen>
+    <dimen name="m03_margin2">3dp</dimen>
+    <dimen name="m03_margin3">9dp</dimen>
+    <dimen name="m03_margin4">7dp</dimen>
+    <dimen name="m03_margin5">25dp</dimen>
+    <dimen name="m03_username">170dp</dimen>
+    <dimen name="m03_postfrom">220dp</dimen>
+    <dimen name="m03_comment">235dp</dimen>
+    <dimen name="m04_margin1">30dp</dimen>
+    <dimen name="m04_margin2">20dp</dimen>
+    <dimen name="cm_listphotos_imageProfile">60dp</dimen>
+    <dimen name="cm_user_comment">40dp</dimen>
+    <dimen name="common_pading_text_follow">20dp</dimen>
+    <dimen name="p05_textsize">12sp</dimen>
+    <dimen name="p05_textsize2">8sp</dimen>
+    <dimen name="p05_textsize3">10sp</dimen>
+    <!-- End LinhLM -->
+
+
+    <!-- HoangNN -->
+    <!-- End HoangNN -->
+
+
+    <!-- BinhTB -->
+    <dimen name="m04_user_name">20sp</dimen>
+    <dimen name="m04_number">22sp</dimen>
+    <dimen name="m04_follow">16sp</dimen>
+    <dimen name="t02_number">18sp</dimen>
+    <dimen name="common_header">18sp</dimen>
+    <!-- for emoji -->
+    <dimen name="key_height">50dip</dimen>
+    <dimen name="candidate_font_height">16sp</dimen>
+    <dimen name="candidate_vertical_padding">6sp</dimen>
+    <!-- End BinhTB -->
+    <dimen name="p063_index_text">12sp</dimen>
+    <dimen name="p06_geo_off">12sp</dimen>
+    <dimen name="p063SlideTextSize">7.2sp</dimen>
+
+</resources>

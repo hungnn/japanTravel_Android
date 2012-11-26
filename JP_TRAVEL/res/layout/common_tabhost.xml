@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="false" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:isScrollContainer="false"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:isScrollContainer="false" >
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_host"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_bg_tab"
+            android:gravity="center_horizontal"
+            android:isScrollContainer="false" >
+
+            <Button
+                android:id="@+id/btn_select_area"
+                style="@style/TabText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="0.2"
+                android:background="@drawable/mesh_icon"
+                android:gravity="bottom|center_horizontal"
+                android:text="@string/select_area"
+                android:singleLine="true"
+                android:textColor="@color/common_tab_unselect" />
+
+            <Button
+                android:id="@+id/btn_timeline"
+                style="@style/TabText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="0.2"
+                android:background="@drawable/trend_icon"
+                android:gravity="bottom|center_horizontal"
+                android:text="@string/timeline"
+                android:singleLine="true"
+                android:textColor="@color/common_tab_unselect" />
+
+            <Button
+                android:id="@+id/btn_post"
+                style="@style/TabText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="0.2"
+                android:background="@drawable/shot_icon"
+                android:gravity="bottom|center_horizontal"
+                android:text="@string/post"
+                android:singleLine="true"
+                android:textColor="@color/common_tab_unselect" />
+
+            <Button
+                android:id="@+id/btn_near_here"
+                style="@style/TabText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="0.2"
+                android:background="@drawable/timeline_icon"
+                android:gravity="bottom|center_horizontal"
+                android:text="@string/near_here"
+                android:singleLine="true"
+                android:textColor="@color/common_tab_unselect" />
+
+            <Button
+                android:id="@+id/btn_my_album"
+                style="@style/TabText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="0.2"
+                android:background="@drawable/user_icon"
+                android:gravity="bottom|center_horizontal"
+                android:singleLine="true"
+                android:text="@string/my_album"
+                android:textColor="@color/common_tab_unselect" />
+        </LinearLayout>
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:isScrollContainer="false"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</TabHost>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+<!-- DuyTX -->
+ <color name="white">#FFFFFF</color>
+ <color name="yellow">#FFFF00</color>
+ <color name="fuchsia">#FF00FF</color>
+ <color name="red">#FF0000</color>
+ <color name="silver">#C0C0C0</color>
+ <color name="gray">#808080</color>
+ <color name="olive">#808000</color>
+ <color name="purple">#800080</color>
+ <color name="maroon">#800000</color>
+ <color name="aqua">#00FFFF</color>
+ <color name="lime">#00FF00</color>
+ <color name="teal">#008080</color>
+ <color name="green">#008000</color>
+ <color name="blue">#0000FF</color>
+ <color name="navy">#000080</color>
+ <color name="black">#000000</color>
+ <color name="orange">#FA8004</color>
+ <color name="u01_bg">#EDEAE5</color>
+ <color name="common_like_bg">#FFAA01</color>
+ <color name="common_cute_bg">#FF7F80</color>
+ <color name="common_beauty_bg">#00AFFE</color>
+ <color name="common_yummy_bg">#A94E21</color>
+<color name="u09_bg">#EBE8E3</color>
+<color name="u09_text">#62615F</color>
+<!-- End DuyTX -->
+
+<!-- ThanhND -->
+<color name="header_grid">#F0EDE8</color>
+<color name="pull_bg_color">#E2E7ED</color>
+<color name="pull_text_color">#758AA7</color>
+<color name="divider_list">#C9CDD4</color>
+<color name="S04_1_background_item_find_friend">#ECE9E4</color>
+<color name="S04_1_text_username_friend">#000000</color>
+<color name="S04_1_text_name_friend">#4b44b8</color>
+<color name="S04_2_bg_search_friends">#ECE9E4</color>
+<color name="bg_color_s04">#EFEBE6</color>
+<color name="common_title_color">#FFFFFF</color>
+<color name="l01_bg_login">#EDEAE5</color>
+<color name="common_bg_gridview">#EDEAE5</color>
+<color name="common_text_black">#000000</color>
+<color name="dialog_bg_color">#5D6067</color>
+<color name="dialog_bg_button_color">#D9D9DB</color>
+<color name="dialog_bg_button_cancel">#2B333B</color>
+<color name="m041_bg_report_user">#334366</color>
+<color name="common_item_title_list">#EFEBE6</color>
+<color name="t01_btn_hot_weekly_active">#FF6300</color>
+<color name="t01_btn_hot_weekly">#FFFFFF</color>
+<color name="common_tag_name">#FFFFFF</color>
+<color name="common_bg_thumb_1">#E0E0E0</color>
+<color name="common_bg_thumb_2">#FFFFFF</color>
+<color name="f01_bg">#EFEBE6</color>
+<color name="common_follow_header">#555555</color>
+<!-- End ThanhND -->
+
+<!-- ThanhHV -->
+<color name="orangered">#EB541B</color>
+<color name="P07_yellow">#f4c90f</color>
+<color name="common_bg_item">#EFEBE6</color>
+<!-- End ThanhHV -->
+
+<!-- SenNA -->
+<!-- End SenNA -->
+
+<!-- CuongDC -->
+<!-- End CuongDC -->
+
+<!-- LinhLM -->
+ <color name="bgr_m03">#edeae5</color>
+ <color name="m03_text_gray">#544E4F</color>
+ <color name="m03_text_ping">#ff8081</color>
+ <color name="m03_text_brown">#a84d20</color>
+ <color name="m03_text_blue">#3da9e0</color>
+ <color name="m03_text_orange">#fba919</color>
+ <color name="common_bgr">#f0ede8</color>
+ <color name="s03_4_textnote">#4d576d</color>
+ <color name="common_text_isclick">#1e469e</color>
+ 
+<!-- End LinhLM -->
+
+<!-- HoangNN -->
+<color name="common_tab_selected">#FF6300</color>
+<color name="common_tab_unselect">#f3f3f3</color>
+<!-- End HoangNN -->
+
+<!-- BinhTB -->
+ <color name="common_m04_vanguar">#4C4C4C</color>
+ <color name="common_m04_master">#7F6737</color>
+ <color name="common_m04_pennant">#106EA7</color>
+ <color name="common_mylocation_wrapper">#0040FF</color>
+  <color name="common_mylocation_circle">#0040FF</color>
+  <!-- for emoji -->
+  <color name="candidate_normal">#FF000000</color>
+  <color name="candidate_recommended">#FFE35900</color>
+  <color name="candidate_other">#ff808080</color>
+  <color name="candidate_background">#bbffffff</color>
+  <color name="dark_transparent">#99444444</color>
+<!-- End BinhTB -->
+ <color name="grey">#808080</color>    
+</resources>
