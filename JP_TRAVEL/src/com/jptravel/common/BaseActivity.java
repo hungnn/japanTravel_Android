@@ -4,11 +4,15 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Window;
 
-public class BaseActivity extends Activity {
+import com.jptravel.tech.multithread.IGlobalState;
+import com.jptravel.tech.multithread.ITravelGlobalState;
+
+
+
+public class BaseActivity extends Activity implements IGlobalState {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);  
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 	}
@@ -23,6 +27,12 @@ public class BaseActivity extends Activity {
 	protected void onResume() {
 		// TODO Auto-generated method stub
 		super.onResume();
+	}
+
+	@Override
+	public ITravelGlobalState getGlobalState() {
+		// TODO Auto-generated method stub
+		return (ITravelGlobalState) getApplication();
 	}
 
 }
