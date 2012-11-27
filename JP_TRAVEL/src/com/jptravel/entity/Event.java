@@ -3,55 +3,55 @@ package com.jptravel.entity;
 
 public class Event {
 	
-	private String eventId;
-	private String eventPlaceName;
-	private String eventName;
-	private String eventDescription;
-	private String eventStartTime;
-	private String eventEndTime;
-	private String eventImageUrl;
+	private String id;
+	private String placeName;
+	private String name;
+	private String description;
+	private String startTime;
+	private String endTime;
+	private String eventImagimageURLeUrl;
 	
-	public String getEventId() {
-		return eventId;
+	public String getId() {
+		return id;
 	}
-	public void setEventId(String eventId) {
-		this.eventId = eventId;
+	public void setId(String id) {
+		this.id = id;
 	}
-	public String getEventPlaceName() {
-		return eventPlaceName;
+	public String getPlaceName() {
+		return placeName;
 	}
-	public void setEventPlaceName(String eventPlaceName) {
-		this.eventPlaceName = eventPlaceName;
+	public void setPlaceName(String placeName) {
+		this.placeName = placeName;
 	}
-	public String getEventName() {
-		return eventName;
+	public String getName() {
+		return name;
 	}
-	public void setEventName(String eventName) {
-		this.eventName = eventName;
+	public void setName(String name) {
+		this.name = name;
 	}
-	public String getEventDescription() {
-		return eventDescription;
+	public String getDescription() {
+		return description;
 	}
-	public void setEventDescription(String eventDescription) {
-		this.eventDescription = eventDescription;
+	public void setDescription(String description) {
+		this.description = description;
 	}
-	public String getEventStartTime() {
-		return eventStartTime;
+	public String getStartTime() {
+		return startTime;
 	}
-	public void setEventStartTime(String eventStartTime) {
-		this.eventStartTime = eventStartTime;
+	public void setStartTime(String startTime) {
+		this.startTime = startTime;
 	}
-	public String getEventEndTime() {
-		return eventEndTime;
+	public String getEndTime() {
+		return endTime;
 	}
-	public void setEventEndTime(String eventEndTime) {
-		this.eventEndTime = eventEndTime;
+	public void setEndTime(String endTime) {
+		this.endTime = endTime;
 	}
-	public String getEventImageUrl() {
-		return eventImageUrl;
+	public String getEventImagimageURLeUrl() {
+		return eventImagimageURLeUrl;
 	}
-	public void setEventImageUrl(String eventImageUrl) {
-		this.eventImageUrl = eventImageUrl;
+	public void setEventImagimageURLeUrl(String eventImagimageURLeUrl) {
+		this.eventImagimageURLeUrl = eventImagimageURLeUrl;
 	}
 	
 }
