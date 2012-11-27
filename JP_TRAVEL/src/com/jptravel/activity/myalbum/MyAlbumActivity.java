@@ -1,10 +1,14 @@
 package com.jptravel.activity.myalbum;
 
+import java.util.ArrayList;
+
 import android.os.Bundle;
 import android.util.Log;
 
 import com.jptravel.common.BaseActivity;
 import com.jptravel.common.Constant;
+import com.jptravel.common.JsonPaser;
+import com.jptravel.entity.Area;
 import com.jptravel.networkmanager.RestClient;
 import com.jptravel.networkmanager.RestClient.RequestMethod;
 
@@ -16,10 +20,10 @@ public class MyAlbumActivity extends BaseActivity {
 		super.onCreate(savedInstanceState);
 		
 		//TODO : Sample connect network and must be remove later
-		RestClient restClient = new RestClient(Constant.BASE_URL +  "places");
-		restClient.addParam("area_id", "1");
-		restClient.addParam("limit", "20");
-		restClient.addParam("offset", "1");
+		RestClient restClient = new RestClient(Constant.BASE_URL +  "areas");
+//		restClient.addParam("area_id", "1");
+//		restClient.addParam("limit", "20");
+//		restClient.addParam("offset", "1");
 		
 		RestClient restClientPost = new RestClient(Constant.BASE_URL +  "bookmarks");
 		restClientPost.addParam("bookmarkable_type", "post");
@@ -29,6 +33,9 @@ public class MyAlbumActivity extends BaseActivity {
 		try {
 			restClient.execute(RequestMethod.GET);
 			Log.d("KET QUA GET", restClient.getResponse());
+			ArrayList<Area> lstArea = new ArrayList<Area>();
+			JsonPaser jsonPaser = new JsonPaser(this);
+			lstArea = jsonPaser.getListArea(restClient.getResponse());
 			restClientPost.execute(RequestMethod.POST);
 			Log.d("KET QUA POST  ", restClientPost.getResponse());
 		} catch (Exception e) {
